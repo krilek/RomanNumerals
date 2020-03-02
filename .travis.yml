@@ -3,6 +3,9 @@ jdk:
   - oraclejdk8
   - openjdk9
 before_install:
+  - pwd
+  - cd ..
+  - tree .
   - cd java
   - ls
 script:

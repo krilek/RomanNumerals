@@ -4,6 +4,7 @@ public class RomanNumeral {
     private final static TreeMap<Integer, String> map = new TreeMap<>();
 
     static {
+        map.put(90, "XC");
         map.put(50, "L");
         map.put(40, "XL");
         map.put(10, "X");

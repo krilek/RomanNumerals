@@ -136,4 +136,3 @@ modules.xml
 
 # End of https://www.gitignore.io/api/intellij+all,intellij+iml
 /META-INF/*
-/lib/*

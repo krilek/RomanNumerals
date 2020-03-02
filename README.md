@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/krilek/RomanNumerals.svg?branch=master)](https://travis-ci.org/krilek/RomanNumerals)

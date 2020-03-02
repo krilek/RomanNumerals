@@ -19,7 +19,6 @@ public class RomanNumeralsTest {
         assertEquals("II", romanNumeral.getRomanNumeral());
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void test3ToRomanNumberIII() {
         romanNumeral = new RomanNumeral(3);

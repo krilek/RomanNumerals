@@ -20,6 +20,6 @@ public class RomanNumeral {
         if ( arabicNumber == l ) {
             return map.get(arabicNumber);
         }
-        return map.get(l) + new RomanNumeral(arabicNumber-1).getRomanNumeral();
+        return map.get(l) + new RomanNumeral(arabicNumber-l).getRomanNumeral();
     }
 }

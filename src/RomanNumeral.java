@@ -1,10 +1,23 @@
+import java.util.TreeMap;
+
 public class RomanNumeral {
+    private final static TreeMap<Integer, String> map = new TreeMap<>();
+
+    static {
+        map.put(1, "I");
+    }
+
     private final int arabicNumber;
+
     RomanNumeral(int arabicNumber){
         this.arabicNumber = arabicNumber;
     }
 
     public String getRomanNumeral() {
-        return null;
+        int l =  map.floorKey(arabicNumber);
+        if ( arabicNumber == l ) {
+            return map.get(arabicNumber);
+        }
+        return map.get(l) + new RomanNumeral(arabicNumber-1).getRomanNumeral();
     }
 }

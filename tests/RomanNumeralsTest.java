@@ -91,7 +91,6 @@ public class RomanNumeralsTest {
         assertEquals("CLXIII", romanNumeral.getRomanNumeral());
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void test402ToRomanNumberCDII() {
         romanNumeral = new RomanNumeral(402);

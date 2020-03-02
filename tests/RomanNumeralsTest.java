@@ -85,7 +85,6 @@ public class RomanNumeralsTest {
         assertEquals("CXLI", romanNumeral.getRomanNumeral());
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void test163ToRomanNumberCLXIII() {
         romanNumeral = new RomanNumeral(163);

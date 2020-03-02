@@ -2,12 +2,5 @@ language: java
 jdk:
   - oraclejdk11
   - openjdk11
-# before_install:
-#   - sudo apt-get -y install junit4
-# addons:
-#   apt:
-#     update: true
-# script:
-# - java -version
-# - echo $JAVA_HOME
-# - ls $JAVA_HOME
+before_install:
+  - sudo apt-get install ant-optional
